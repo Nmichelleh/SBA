@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+
+    <title>Storybox</title>
+
+</head>
+<body>
+<section class="showcase">
+ <header>
+    <h2 class="logo">Storybox</h2>
+    <div class="toggle"></div>
+</header>
+<video src="./class.mp4" muted loop autoplay></video>
+<div class="overlay"></div>
+<div class="text">
+<h2>Expanding Literacy</h2>
+<h3>Expanding Minds</h3>
+<p>Storybox provides classic short stories at a affordable rate. Storybox aims to assist those in low income areas with access to books to help expand literacy, communication, and resources for the youth.
+</p>
+<a href="products.html">Explore</a>
+</div>
+  
+<ul class="social">
+    <li><a href="#"><img src="/facebook.svg"></a></li>
+    <li><a href="#"><img src="/twitter.svg"></a></li>
+    <li><a href="#"><img src="/instagram.svg"></a></li>
+</ul>
+</section>
+
+<div class="menu">
+    <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html"">About Us</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="registration.html">Registration</a></li>
+    <li><a href="cart.html"">Cart</a></li>
+ </ul>
+</div>
+
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+
+
+    menuToggle.addEventListener('click', () => {
+     menuToggle.classList.toggle('active')
+     showcase.classList.toggle('active')
+    })
+</script>
+
+</body>
+</html>
+    
+
