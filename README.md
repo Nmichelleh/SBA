@@ -1,0 +1,2 @@
+# SBA 
+My small website is a ecommerce bookstore which focuses on providing books at an affordable prices for children in underprivilege areas. This project includes all technical requirements for sba( Homepage, Login, registration). I have also included an about me page which includes an html table and a cart page for my products(books)![image](https://user-images.githubusercontent.com/106097759/182170451-19c352ce-48fe-447a-9b09-3e2b1996b301.png)
